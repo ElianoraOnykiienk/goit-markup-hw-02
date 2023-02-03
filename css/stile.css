@@ -53,6 +53,7 @@
      text-decoration: none;
      font-size: 16px;
      line-height: 1.5;
+     color: var(--colol-secondary);
  }
 
  .section-hero {
@@ -112,4 +113,46 @@
      font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
+ }
+
+ .footer {
+     background: var(--color-brand);
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+
+ }
+
+ .logo-seconds {
+     color: #F4F4FD;
+     font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.166;
+ }
+
+ .paragraph-footer {
+     color: #E7E9FC;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+ }
+
+ .section-portfolio {
+     box-sizing: border-box;
+     border-radius: 4px;
+ }
+
+ .button-portfolio {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     color: #4D5AE5;
  }
