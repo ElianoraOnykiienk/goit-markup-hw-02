@@ -3,12 +3,13 @@
      --color-primary: #4D5AE5;
      --colol-secondary: #434455;
      --color-main: #FFFFFF;
+     --color-footer: #E7E9FC;
  }
 
  body {
-     background: #FFFFFF;
-     font-family: 'Roboto';
-     color: #2E2F42;
+     background: var(--color-main);
+     font-family: 'Roboto', sans-serif;
+     color: var(--color-brand);
  }
 
  ul {
@@ -32,17 +33,13 @@
      letter-spacing: 0.03em;
  }
 
- .test-link:hover:focus {
-     color: var(--color-brand);
-
+ .link {
+     text-decoration: none;
  }
 
- .header {
+ .test-link:hover,
+ .test-link:focus {
      color: var(--color-brand);
-     text-decoration: none;
-     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em;
  }
 
 
@@ -52,8 +49,9 @@
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-
  }
+
+
 
  .test-link {
      font-style: normal;
@@ -62,6 +60,7 @@
      font-size: 16px;
      line-height: 1.5;
      color: var(--colol-secondary);
+     letter-spacing: 0.02em;
  }
 
  .section-hero {
@@ -70,7 +69,7 @@
  }
 
  .hero-tital {
-     color: #FFFFFF;
+     color: var(--color-main);
      background: var(--color-brand);
      font-weight: 700;
      text-align: center;
@@ -83,20 +82,19 @@
      background: var(--color-primary);
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
      border-radius: 4px;
-     color: #FFFFFF;
+     color: var(--color-main);
      font-style: normal;
      font-weight: 500;
      text-align: center;
      font-size: 16px;
      line-height: 1.5;
-     font-family: 'Roboto';
+     font-family: 'Roboto', sans-serif;
      letter-spacing: 0.04em;
-     flex-direction: row;
  }
 
  .button-light:hover {
      text-align: center;
-     background-color: #4D5AE5;
+     background-color: var(--color-brand);
  }
 
 
@@ -117,50 +115,41 @@
 
  .section-header {
      color: var(--color-brand);
-     font-style: normal;
-     font-family: 'Roboto';
      font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
      text-decoration: none;
+
  }
 
  .section-li {
-     background: #FFFFFF;
+     background: var(--color-main);
      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
      border-radius: 0px 0px 4px 4px;
  }
 
  .paragraph {
      color: var(--colol-secondary);
-     font-family: 'Roboto';
-     font-style: normal;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      text-decoration: none;
+
  }
 
  .footer {
      background: var(--color-brand);
-     font-family: 'Roboto';
+     font-family: 'Roboto', sans-serif;
      font-style: normal;
      font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-
  }
 
  .logo-seconds {
      color: #F4F4FD;
-     font-family: 'Raleway', sans-serif;
-     font-style: normal;
-     font-weight: 800;
-     font-size: 18px;
-     line-height: 1.166;
-     letter-spacing: 0.02em;
  }
 
  .paragraph-footer {
@@ -173,10 +162,16 @@
  .section-portfolio {
      box-sizing: border-box;
      border-radius: 4px;
+
+ }
+
+ .button-portfolio:hover,
+ .button-portfolio:focus {
+     color: var(--color-primary);
  }
 
  .button-portfolio {
-     color: #4D5AE5;
+     color: var(--color-primary);
      letter-spacing: 0.04em;
      font-style: normal;
      font-weight: 500;
