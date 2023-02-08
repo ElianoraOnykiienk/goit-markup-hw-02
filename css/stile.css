@@ -170,12 +170,15 @@
  .section-portfolio {
      box-sizing: border-box;
      border-radius: 4px;
+     text-decoration: none;
  }
 
 
  .button-portfolio:hover,
  .button-portfolio:focus {
      background: #404BBF;
+     cursor: pointer;
+
  }
 
 
