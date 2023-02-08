@@ -176,7 +176,7 @@
 
  .button-portfolio:hover,
  .button-portfolio:focus {
-     background: var(--color-hover);
+     color: var(--color-hover);
      cursor: pointer;
 
  }
@@ -199,6 +199,8 @@
      color: var(--color-hover);
      text-decoration: none;
  }
+
+
 
  .links-portfolio {
      cursor: pointer;
