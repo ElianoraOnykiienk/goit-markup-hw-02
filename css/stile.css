@@ -36,6 +36,7 @@
 
  .link {
      text-decoration: none;
+     color: var(--color-brand);
  }
 
  .test-link:hover,
@@ -54,7 +55,7 @@
  }
 
  .link-address {
-     color: var(--colol-secondary);
+     color: var(--color-hover);
  }
 
  .link-address:hover,
@@ -102,10 +103,11 @@
      letter-spacing: 0.04em;
  }
 
- .button-light:hover {
+ .button-light:hover,
+ .button-light:focus {
      text-align: center;
      background: var(--color-hover);
-
+     cursor: pointer;
  }
 
  .section-img {
