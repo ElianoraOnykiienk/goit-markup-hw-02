@@ -195,6 +195,11 @@
      border-radius: 4px;
  }
 
+ .links-portfolio {
+     cursor: pointer;
+     text-decoration: none;
+ }
+
  .visually-hidden {
      position: absolute;
      white-space: nowrap;
