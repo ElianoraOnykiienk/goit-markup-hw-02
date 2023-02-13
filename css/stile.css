@@ -24,13 +24,26 @@
      padding-bottom: 24px;
  }
 
+ .nav-link {
+     display: flex;
+     align-items: center;
+ }
+
 
  .container {
      max-width: 1158px;
      width: 100%;
-     margin: 0 auto;
-     padding: 0 15px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 15px;
+     padding-right: 15px;
  }
+
+ .main-div {
+     display: flex;
+     align-items: center;
+ }
+
 
  .logo-first {
      color: var(--color-primary);
@@ -40,25 +53,24 @@
      font-size: 18px;
      line-height: 1.333;
      letter-spacing: 0.03em;
-     padding-top: 0;
-     padding-bottom: 16px;
-
+     padding: 0px;
  }
 
  .logo-second {
      font-family: 'Raleway', sans-serif;
      color: var(--color-brand);
      letter-spacing: 0.03em;
+     padding: 0px;
  }
 
  .link {
      text-decoration: none;
      color: var(--color-brand);
-
      display: flex;
-
+     margin: 76px;
 
  }
+
 
  .test-link:hover,
  .test-link:focus {
@@ -94,6 +106,7 @@
 
  .link-address {
      display: flex;
+     margin-left: auto;
  }
 
  .link-address .item+.item {
@@ -113,6 +126,7 @@
      padding-top: 24px;
      padding-bottom: 24px;
      display: block;
+
  }
 
 
