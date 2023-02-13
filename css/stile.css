@@ -9,15 +9,21 @@
 
  body {
      background: var(--color-main);
-     font-family: 'Roboto', sans-serif;
      color: var(--color-brand);
  }
 
  ul {
      list-style-type: none;
-     margin: 0;
      padding: 0;
+     margin: 0;
  }
+
+
+ .header {
+     padding-top: 24px;
+     padding-bottom: 24px;
+ }
+
 
  .container {
      max-width: 1158px;
@@ -34,6 +40,8 @@
      font-size: 18px;
      line-height: 1.333;
      letter-spacing: 0.03em;
+     padding-top: 0;
+     padding-bottom: 16px;
 
  }
 
@@ -46,11 +54,16 @@
  .link {
      text-decoration: none;
      color: var(--color-brand);
+
+     display: flex;
+
+
  }
 
  .test-link:hover,
  .test-link:focus {
      color: var(--color-hover);
+
  }
 
  .test-link {
@@ -61,6 +74,14 @@
      line-height: 1.5;
      color: var(--color-brand);
      letter-spacing: 0.02em;
+
+     padding-top: 24px;
+     padding-bottom: 24px;
+     display: block;
+ }
+
+ .link .item+.item {
+     margin-left: 40px;
  }
 
  .address {
@@ -69,6 +90,14 @@
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
+ }
+
+ .link-address {
+     display: flex;
+ }
+
+ .link-address .item+.item {
+     margin-left: 40px;
  }
 
 
@@ -80,6 +109,10 @@
      letter-spacing: 0.02em;
      color: var(--colol-secondary);
      text-decoration: none;
+
+     padding-top: 24px;
+     padding-bottom: 24px;
+     display: block;
  }
 
 
@@ -92,6 +125,7 @@
  .section-hero {
      background: var(--color-brand);
      text-align: center;
+
      padding-top: 188px;
      padding-bottom: 188px;
 
@@ -106,6 +140,7 @@
      line-height: 1.071;
      letter-spacing: 0.02em;
      margin-bottom: 48px;
+     margin-top: 0px;
  }
 
  .button-light {
@@ -130,7 +165,8 @@
  }
 
  .section {
-     padding: 120px 0;
+     padding-top: 120px;
+     padding-bottom: 120px;
  }
 
  .section-header {
@@ -139,14 +175,14 @@
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
-     margin: 8px;
+     margin-top: 0;
+     margin-bottom: 8px;
  }
 
  .section-li {
      background: var(--color-main);
      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
      border-radius: 0px 0px 4px 4px;
-     margin: 32px;
  }
 
  .paragraph {
@@ -155,7 +191,7 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      text-decoration: none;
-     margin: 32px;
+
  }
 
  .section-img {
@@ -165,12 +201,14 @@
      font-size: 36px;
      line-height: 1.111;
      letter-spacing: 0.02em;
-     margin: 72px;
+     margin-top: 0;
+     margin-bottom: 72px;
  }
 
  .employees {
      background: #F4F4FD;
-     padding: 120px 0;
+     padding-top: 120px;
+     padding-bottom: 120px;
  }
 
  .footer {
@@ -181,6 +219,8 @@
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
+     padding-top: 100px;
+     padding-bottom: 100px;
  }
 
  .logo-seconds {
@@ -198,8 +238,8 @@
      box-sizing: border-box;
      border-radius: 4px;
      text-decoration: none;
-     padding-top: 96px;
-     padding-bottom: 72px;
+
+
  }
 
  .button-portfolio {
@@ -219,6 +259,7 @@
      color: var(--color-primary);
      cursor: pointer;
      text-decoration: none;
+     Padding: 12px, 24px, 12px, 24px;
  }
 
 
@@ -232,7 +273,8 @@
  .links-portfolio {
      cursor: pointer;
      text-decoration: none;
-     margin: 72px;
+     padding-top: 0px;
+     padding-bottom: 48px;
  }
 
  .visually-hidden {
