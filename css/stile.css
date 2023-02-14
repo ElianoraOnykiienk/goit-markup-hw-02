@@ -93,6 +93,12 @@
      margin-left: 40px;
  }
 
+ .nav-link {
+     display: flex;
+     align-items: center;
+     flex-grow: 1;
+ }
+
  .address {
      color: var(--colol-secondary);
      font-weight: 400;
