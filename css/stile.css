@@ -303,8 +303,10 @@
      display: flex;
      margin-top: 0;
      margin-bottom: 72px;
+     justify-content: center;
 
  }
+
 
  .item-portfolio .item-button+.item-button {
      margin-left: 24px;
